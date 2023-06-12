@@ -1,0 +1,14 @@
+.grid{
+    width: 450px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    gap: 10px;
+    background-color: #C36C49;
+}
+.box{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFE7D4;
+}
