@@ -1,0 +1,38 @@
+@media (min-width: 800px) {
+    .wrapper{
+        margin: 20px;
+        background-color: #FFE7D4;
+        height: 516px;
+        width: 792px;
+    }
+    .big{
+        position:absolute;
+        translate: 160px 150px;
+        text-align: center;
+        font-size: 30px;
+        color: #88C87E;
+        background-color: #717597;
+    }
+    .small{
+        display: none !important;
+    }
+}
+@media (orientation: portrait) {
+    .wrapper{
+        margin: 20px;
+        background-color: #FFE7D4;
+        height: 516px;
+        width: 350px;
+    }
+    .small{
+        position:absolute;
+        translate: 60px 150px;
+        text-align: center;
+        font-size: 30px;
+        color: #88C87E;
+        background-color: #717597;
+    }
+    .big{
+        display: none !important;
+    }
+}

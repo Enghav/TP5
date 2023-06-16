@@ -1,0 +1,15 @@
+@media (orientation = portrait) {
+    .wrapper{
+        width:800px !important;
+    }
+}
+.wrapper {
+    width: clamp(300px, 100%, 800px);
+    height: 516px;
+    margin: 0 auto; /* Centers the wrapper horizontally */
+  }
+.content {
+  margin-top: 40px;
+  height: 516px; /* Example height */
+  background-color: #BB7497 /* Example background color */
+}
